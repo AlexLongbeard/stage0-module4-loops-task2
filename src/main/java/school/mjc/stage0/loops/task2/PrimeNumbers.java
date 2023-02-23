@@ -10,7 +10,7 @@ public class PrimeNumbers {
         else {
             System.out.println("2");
             while (i<=printToInclusive) {
-                int j = 2;
+                int j=2;
                 while (j<i) {
                     if (i%j==0) {
                         isPrime = false;
